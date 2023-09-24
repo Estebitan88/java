@@ -17,9 +17,9 @@ public class TestCuadrado {
 		double perimetroCuadrado2;
 		double perimetroCuadrado3;
 
-		cuadrado1.lado = 4;
-		cuadrado2.lado = 6;
-		cuadrado3.lado = 8;
+		cuadrado1.setLado(4);
+		cuadrado2.setLado(6);
+		cuadrado3.setLado(8);
 
 		areaCuadrado1 = cuadrado1.CalcularArea();
 		areaCuadrado2 = cuadrado2.CalcularArea();
