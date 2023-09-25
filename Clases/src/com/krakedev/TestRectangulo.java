@@ -4,22 +4,24 @@ public class TestRectangulo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Rectangulo r1 = new Rectangulo();
-		Rectangulo r2= new Rectangulo();
-		Rectangulo r3= new Rectangulo();
+		Rectangulo r1 = new Rectangulo(10,5);
+		Rectangulo r2= new Rectangulo(8,5);
+		Rectangulo r3= new Rectangulo(4,2);
 		
 		int areaR1;
 		int areaR2;
 		double perimetro;
+
+//		sin constructor 
 		
-		r1.setBase(10);
-		r1.setAltura(5);
-		
-		r2.setBase(8);
-		r2.setAltura(5);
-		
-		r3.setBase(4);
-		r3.setAltura(2);
+//		r1.setBase(10);
+//		r1.setAltura(5);
+//		
+//		r2.setBase(8);
+//		r2.setAltura(5);
+//		
+//		r3.setBase(4);
+//		r3.setAltura(2);
 		
 		areaR1=r1.CalcularArea();
 		areaR2=r2.CalcularArea();
