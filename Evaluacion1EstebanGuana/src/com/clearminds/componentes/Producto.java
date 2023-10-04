@@ -7,7 +7,7 @@ public class Producto {
 	private String codigo;
 
 	public void incrementarPrecio(int porcentajeIncremento) {
-		double totalIncremento = (porcentajeIncremento * precio) / 100;
+		double totalIncremento = (porcentajeIncremento * precio)/100;
 		precio = totalIncremento + precio;
 	}
 
@@ -15,9 +15,9 @@ public class Producto {
 		precio = precio - valorDescuento;
 	}
 
-	public Producto(String codigo,String nombre, double precio) {
-		this.codigo = codigo;
+	public Producto(String codigo, String nombre, double precio) {
 		this.nombre = nombre;
+		this.codigo = codigo;
 		this.precio = precio;
 	}
 
