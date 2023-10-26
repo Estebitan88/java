@@ -9,10 +9,16 @@ public class Cuenta {
 	private String cedula;
 	private Date fechaCreacion;
 	private BigDecimal saldo;
-	
-	
-	
-	
+
+	public Cuenta() {
+		super();
+	}
+
+	public Cuenta(String numeroCuenta, String cedula) {
+		super();
+		this.numeroCuenta = numeroCuenta;
+		this.cedula = cedula;
+	}
 
 	public Cuenta(String numeroCuenta, String cedula, Date fechaCreacion, BigDecimal saldo) {
 		super();
